@@ -13,7 +13,7 @@ import com.ibm.watson.developer_cloud.text_to_speech.v1.util.WaveUtils;
 public class Speech01_main {
 	public static void main(String[] args){
 	TextToSpeech synthesizer = new TextToSpeech();
-	   synthesizer.setUsernameAndPassword("ee9d3ca0-4631-466c-bb5f-8cf52c91a788", "4MR32iYVhN37");
+	   synthesizer.setUsernameAndPassword("j16020", "j16020");
 	   String translation = "THE CLOCK STOPPED TICKING FOREVER AGO ";
 	   SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
 		       .text(translation)
